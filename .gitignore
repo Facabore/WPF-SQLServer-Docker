@@ -1,0 +1,96 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build Results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Bb]uild[Ll]og.*
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# Uncomment if necessary
+#!**/packages/build/
+#!**/packages/repositories.config
+
+# Entity Framework
+*.edmx.diagram
+*.edmx.sql
+*.edmx.ssdm
+*.tt
+
+# Rider / Resharper
+.idea/
+*.sln.iml
+*.sln.ide
+*.DotSettings.user
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Windows Specific
+[Dd]esktop.ini
+[Tt]humbs.db
+ehthumbs.db
+*.stackdump
+
+# macOS Specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Docker
+**/.docker/
+*.env
+docker-compose.override.yml
+Dockerfile
+.dockerignore
+
+# Temporary files
+*.log
+*.bak
+*.cache
+*.tmp
+*.temp
+*.pid
+*.gz
+
+# JetBrains Rider
+.idea/
+.idea_modules/
+*.iws
+*.iml
+
+# NuGet restore log
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Exclude personal files
+*.vsconfig
+
+# Ignore application insights
+ApplicationInsights.config
+ApplicationInsights.Tracing.config
+
+# Ignore generated EF migrations
+Migrations/
+
+
+# Exclude Publish folder
+[Pp]ublish/
